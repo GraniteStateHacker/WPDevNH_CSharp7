@@ -28,11 +28,11 @@ namespace WPDevNH_CSharp7
             letters.Item1 = "c";
 
             var mixed = ("a", "b", 1);
-            mixed.Item3 = "";
+            //mixed.Item3 = "";
             mixed.Item3 = 0;
 
             var (a, b, d) = resultOfFunction();
-            if (a == b)
+            //if (a == b)  breaks build because of type mismatch
             {
                 
             }
